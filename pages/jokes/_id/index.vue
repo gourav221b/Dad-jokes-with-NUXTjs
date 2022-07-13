@@ -3,7 +3,7 @@
     <nuxt-link to="/jokes"> &larr;Back to all</nuxt-link>
     <!-- <img :src="jokeImg" alt=""> -->
     <div v-if="joke.id=='0DtrrOZDlyd'">
-     <iframe width="956" height="538" src="https://www.youtube.com/embed/xvFZjo5PgG0" title="Rick Roll (Different link + no ads)" frameborder="0" allow='autoplay'></iframe>
+     <iframe src="https://www.youtube.com/embed/xvFZjo5PgG0" title="Rick Roll (Different link + no ads)" frameborder="0" allow='autoplay'></iframe>
     </div>
       <h2>{{joke.joke}}</h2>
       <hr/>
